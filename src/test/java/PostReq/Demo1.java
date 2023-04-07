@@ -10,7 +10,7 @@ public class Demo1 {
 public static void main(String[] args) {
 	// Step 1: Specify Base URI in Request Assured
 			RestAssured.baseURI = "http://localhost:3000";
-
+			RestAssured.baseURI="http://localhost:3000";
 			// Step 2: get the RequestSpecification Object to hit the different type of HTTP
 			// Request
 
